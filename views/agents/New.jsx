@@ -4,8 +4,8 @@ class New extends React.Component {
   render() {
     return (
       <div>
-        <h1>New Artist FAQ page</h1>
-        <form action="/artists" method="POST">
+        <h1>New Agents FAQ page</h1>
+        <form action="/agents" method="POST">
          title: <input type="text" name="title" />
           <br />
           Faq: <input type="text" name="faq" />

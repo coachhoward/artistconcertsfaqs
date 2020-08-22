@@ -27,8 +27,8 @@ mongoose.connection.once('open', () => {
 const artistsController = require('./controllers/artists.js');
 app.use('/artists', artistsController);
 
-// const vegetablesController = require("./controllers/vegetables.js");
-// app.use("/vegetables", vegetablesController);
+const agentsController = require("./controllers/agents.js");
+app.use("/agents", agentsController);
 
 // listen
 app.listen(PORT, () => {
