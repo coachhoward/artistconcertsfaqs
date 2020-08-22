@@ -1,7 +1,7 @@
 {
-  "name": "fruits-jsx-mongoose",
+  "name": "FAQs",
   "version": "1.0.0",
-  "description": "Heroku-p2-testrun",
+  "description": "Heroku-Faq",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
