@@ -24,11 +24,11 @@ mongoose.connection.once('open', () => {
 })
 
 // Controller
-const fruitsController = require('./controllers/fruits.js');
-app.use('/fruits', fruitsController);
+const artistsController = require('./controllers/artists.js');
+app.use('/artists', artistsController);
 
-const vegetablesController = require("./controllers/vegetables.js");
-app.use("/vegetables", vegetablesController);
+// const vegetablesController = require("./controllers/vegetables.js");
+// app.use("/vegetables", vegetablesController);
 
 // listen
 app.listen(PORT, () => {
