@@ -30,6 +30,11 @@ app.use('/artists', artistsController);
 const agentsController = require("./controllers/agents.js");
 app.use("/agents", agentsController);
 
+// Default route:
+app.get("/", (req, res) => {
+    res.redirect("/artists");
+  });
+
 // listen
 app.listen(PORT, () => {
     console.log('listening on: ' + 3000);

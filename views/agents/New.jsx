@@ -1,9 +1,12 @@
 const React = require("react");
+const Default = require('../components/Default');
+
 
 class New extends React.Component {
   render() {
     return (
-      <div>
+      <Default>
+      <div className="agents">
         <h1>New Agents FAQ page</h1>
         <form action="/agents" method="POST">
          title: <input type="text" name="title" />
@@ -15,6 +18,7 @@ class New extends React.Component {
           <input type="submit"name="" value="Create FAQ" />
         </form>
       </div>
+      </Default>
     );
   }
 }

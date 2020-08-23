@@ -1,10 +1,13 @@
 const React = require("react");
+const Default = require('../components/Default');
+
 
 class Edit extends React.Component {
   render() {
     const { _id, title, faq, requireFaq } = this.props.agent;
     return (
-      <div>
+      <Default>
+      <div className="agents">
         <h1>Edit FAQ for agents Page</h1>
         {/* url - /agents/id_of_agent? parameter to indicate the request */}
         <form action={`/agents/${_id}?_method=PUT`} method="POST">
@@ -16,6 +19,7 @@ class Edit extends React.Component {
           <input type="submit" name="" value="Submit Changes" />
         </form>
       </div>
+      </Default>
     );
   }
 }
