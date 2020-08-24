@@ -1,9 +1,49 @@
-.placeholder {
-background-color: red;
+
+
+h1{
+  color: white;
+  font-size: 3rem;
+  font-family: 'Nunito Sans', sans-serif;
 }
-h1 {
-    color: royalblue;
+.artists{
+  background-color: rgb(30, 128, 240);
+  font-family: 'Nunito Sans', sans-serif;
 }
 .agents{
-    background-color: rgb(21, 6, 241);
+  background-color: rgb(30, 128, 240);
+  font-family: 'Nunito Sans', sans-serif;
 }
+#index-li{
+  background-color:  rgb(30, 128, 240);
+  list-style: none;
+  margin-top: 2rem;
+  padding: 2rem ;
+  color: white;
+}
+.faq-title{
+  text-decoration: none;
+  color: white;
+}
+.nav-link{
+  color: white;
+}
+.artists-h1{
+  font-size: 2rem;
+}
+.artists-title {
+  font-size: 2rem;
+  padding-left: 3rem;
+}
+.artists-answer{
+  font-size: 2rem;
+}
+.agents-h1{
+  font-size: 2rem;
+}
+.agents-title{
+    font-size: 2rem;
+    padding-left: 3rem;
+  }
+  .agents-answer{
+    font-size: 2rem;
+  }
