@@ -30,7 +30,7 @@ class Index extends React.Component {
 
                                     </h1>
 
-                                    <br></br>
+                                    {/* <br></br>
 
                                     {agent.requireFaq ? `Image: Required` : `Image: Not required`}
                                     <br></br>
@@ -39,7 +39,7 @@ class Index extends React.Component {
                                     </form>
                                     <br></br>
                                     
-                                    <a id="edit"href={`/agents/${agent._id}/edit`}>Edit</a>
+                                    <a id="edit"href={`/agents/${agent._id}/edit`}>Edit</a> */}
                                 </li>
                             )
                         })
