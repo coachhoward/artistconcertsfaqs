@@ -8,7 +8,9 @@ class Index extends React.Component {
         return (
             <Default>
             <div className="agents">
-                <h1 className="agents-title">Agents FAQ Index Page</h1>
+                <h1 className="agents-title">Frequently Asked Questions
+                </h1>
+                <hr></hr>
                 <nav>
                     <a href="/agents/new">Create a New Faq for agents</a>
                 </nav>
