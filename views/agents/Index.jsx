@@ -19,12 +19,19 @@ class Index extends React.Component {
                         agents.map((agent, i) => {
                             return (
                                 <li id="index-li">
-                                    <h1 className="agents-h1">
-                                    FAQ: <a className="faq-title" href={`/agents/${agent._id}`}>{agent.title}</a> 
-                                    <br></br>
-                                    Answer: {agent.faq} 
+                                    <h1 id="agents-h1"><br></br>
+                                    <span>    </span><i class="far fa-comment"></i>
+<span>    </span><a className="faq-title" href={`/agents/${agent._id}`}>{agent.title}</a><span>    </span>
+
+<i className="far fa-trash-alt"></i><span>    </span>
+<i class="far fa-edit"><a href={`/agents/${agent._id}/edit`}></a></i>
+
+
+
                                     </h1>
+
                                     <br></br>
+
                                     {agent.requireFaq ? `Image: Required` : `Image: Not required`}
                                     <br></br>
                                     <form action={`/agents/${agent._id}?_method=DELETE`} method="POST">
@@ -32,7 +39,7 @@ class Index extends React.Component {
                                     </form>
                                     <br></br>
                                     
-                                    <a href={`/agents/${agent._id}/edit`}>Edit</a>
+                                    <a id="edit"href={`/agents/${agent._id}/edit`}>Edit</a>
                                 </li>
                             )
                         })
