@@ -33,12 +33,12 @@ class Edit extends React.Component {
 
           <br />
           <div className="form-group d-flex justify-content-end">
-          <input className="btn btn-primary" type="submit"name="" value="Edit FAQ & Notify Product Owner"/>
+          <input className="btn btn-primary" type="submit"name="" value="Edit FAQ"/>
           </div>
 
           </div>
         </form>
-        <p className="card-text">NOTE:<br></br>When you Edit a new FAQ, we will SMS notify the product owner with your request.</p>
+        <p className="card-text">NOTE:<br></br>When you create a new FAQ, we will SMS notify the product owner with your request.</p>
     <a href="/agents" className="btn btn-secondary">HOMEPAGE</a>
   </div>
 </div>
