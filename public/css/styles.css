@@ -3,7 +3,7 @@
 } */
 #navbar-brand{
   color: rgb(121, 120, 120);
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   text-decoration: none;
 }
 #index-header{
@@ -73,4 +73,11 @@ h1{
 }
 #edit-button{
   color: white;
+}
+.display-4{
+  color:  rgb(30, 128, 240);
+}
+.card-text{
+  color: black;
+  font-weight: bold;
 }

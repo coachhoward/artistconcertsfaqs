@@ -34,10 +34,10 @@ class Default extends React.Component {
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="/artists">Artist's FAQ's<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/artists">Artists<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/agents">Agent's FAQ's</a>
+        <a class="nav-link" href="/agents">Agents</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/artists/new">Create New FAQ</a>

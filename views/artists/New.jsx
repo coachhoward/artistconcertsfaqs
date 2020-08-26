@@ -41,12 +41,12 @@ class New extends React.Component {
 
           <br />
           <div className="form-group d-flex justify-content-end">
-          <input className="btn btn-primary" type="submit"name="" value="Create FAQ" />
+          <input className="btn btn-primary" type="submit"name="" value="Create FAQ & Notify Product Owner" />
           </div>
 
           </div>
         </form>
-    <p className="card-text">When you Create a new FAQ, we will SMS notify the product owner with your request.</p>
+    <p className="card-text">NOTE:<br></br>When you Create a new FAQ, we will SMS notify the product owner with your request.</p>
     <a href="/artists" className="btn btn-secondary">HOMEPAGE</a>
   </div>
 </div>

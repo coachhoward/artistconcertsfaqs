@@ -7,18 +7,43 @@ class Edit extends React.Component {
     const { _id, title, faq, requireFaq } = this.props.agent;
     return (
       <Default>
-      <div className="agents">
-        <h1>Edit FAQ for agents Page</h1>
-        {/* url - /agents/id_of_agent? parameter to indicate the request */}
-        <form action={`/agents/${_id}?_method=PUT`} method="POST">
-          Title: <input type="text" name="title" defaultValue={title} /> <br />
-          FAQ: <input type="text" name="faq" defaultValue={faq} /> <br />
-          Is FAQ required:
-          <input type="checkbox" name="requireFaq" checked={requireFaq} />
+      <div>
+        <h1>Edit FAQ for Agents Page</h1>
+        <div className="d-flex justify-content-center">       
+ <div className="card p-3" style={{width: '30rem'}}>
+ 
+  <div className="">
+    <h5 className="d-flex justify-content-center">Edit Faq</h5>
+    <form className="whole-form " action={`/agents/${_id}?_method=PUT`} method="POST">
+
+      <div className="form-group">
+        <label for="title">FAQ Title:</label>
+         <input className="form-control" type="text" name="title" defaultValue={title}  />
+         </div>
+
+         <div className="form-group">
+           <label for="faq">Faq Answer:</label>
+           <input className="form-control" type="text" name="faq" defaultValue={faq}/>
+          </div>
+
+          <div className="form-group">
+            <label className="form-check-label mr-2 mb-3" for="requireFaq">Is FAQ required</label>
+           <input className="" type="checkbox" name="requireFaq" checked={requireFaq}/>
+
+
           <br />
-          <input type="submit" name="" value="Submit Changes" />
+          <div className="form-group d-flex justify-content-end">
+          <input className="btn btn-primary" type="submit"name="" value="Edit FAQ & Notify Product Owner"/>
+          </div>
+
+          </div>
         </form>
-      </div>
+        <p className="card-text">NOTE:<br></br>When you Edit a new FAQ, we will SMS notify the product owner with your request.</p>
+    <a href="/agents" className="btn btn-secondary">HOMEPAGE</a>
+  </div>
+</div>
+</div>
+    </div>
       </Default>
     );
   }

@@ -28,12 +28,14 @@ class Index extends React.Component {
 
 
 
+
+
                                  </h1>
                                     {/* <br></br>
                                     {artist.requireFaq ? `Image: Required` : `Image: Not required`}
                                     <br></br>
                                     <form action={`/artists/${artist._id}?_method=DELETE`} method="POST">
-                                        <input type="submit" value="delete"/>
+                                        <input type="submit" class="far fa-trash-alt"/>
                                     </form>
                                     <br></br>
                                     <a id="edit"href={`/artists/${artist._id}/edit`}>Edit</a> */}
