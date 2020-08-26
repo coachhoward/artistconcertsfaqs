@@ -1,2 +1,2 @@
-# FAQ Database app that will interface with database to be used in Website, Native Apps
+# FAQ Database app that will interface with database to be used in Website, Native Apps. SMS Notify Product Owner
 
