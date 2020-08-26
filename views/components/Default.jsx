@@ -8,6 +8,7 @@ class Default extends React.Component {
                 <head>
                     <link rel="stylesheet" href="/css/styles.css" type="text/css"/>
                     <title>FAQs</title>
+                    
 
                     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous"></link>
 
@@ -20,7 +21,7 @@ class Default extends React.Component {
                 </head>
                 <body>
                 <div class="sticky-top">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-xl navbar-light bg-light">
   <a id="navbar-brand" href="/artists"><span id="brand-A">A</span>rtist<span id="brand-A">C</span>oncerts</a>
 
 
