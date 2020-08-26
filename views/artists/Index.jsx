@@ -25,6 +25,10 @@ class Index extends React.Component {
 <span>
 <a style={{fontSsize: '3em', color: 'white', textDecoration: 'none'}}className="far fa-edit" href={`/artists/${artist._id}/edit`}></a>
 </span>
+<br></br>
+                                    <form action={`/artists/${artist._id}?_method=DELETE`} method="POST">
+                                        <input id="delete-btn" type="submit" value="DELETE"/>
+                                    </form>
 
 
 
