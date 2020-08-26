@@ -42,9 +42,9 @@ class Default extends React.Component {
       <li class="nav-item">
         <a class="nav-link" href="/artists/new">Create New FAQ</a>
       </li>
-      <li class="nav-item">
+      {/* <li class="nav-item">
         <a class="nav-link" href="/artists/new">Support</a>
-      </li>
+      </li> */}
      
     </ul>
     <span class="navbar-text">

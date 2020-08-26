@@ -18,6 +18,7 @@ class Edit extends React.Component {
           <br />
           <input type="submit" name="" value="Submit Changes" />
         </form>
+        
       </div>
       </Default>
     );

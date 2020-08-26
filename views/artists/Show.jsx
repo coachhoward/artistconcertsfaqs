@@ -26,7 +26,9 @@ class Show extends React.Component {
   <p className="lead">
     <a className="btn btn-primary btn-lg" href="/agents" role="button">Return to FAQ's'</a>
   </p>
+  
 </div>
+
             </Default>
         )
     }

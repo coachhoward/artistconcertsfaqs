@@ -21,24 +21,22 @@ class Index extends React.Component {
                                     <h1 id="artists-h1"><br></br>
                                     <span>    </span><i class="far fa-comment"></i>
 <span>    </span><a className="faq-title" href={`/artists/${artist._id}`}>{artist.title}</a><span>    </span>
+<span>    </span>
+<span>
+<a style={{fontSsize: '3em', color: 'white', textDecoration: 'none'}}className="far fa-edit" href={`/artists/${artist._id}/edit`}></a>
+</span>
 
-<i className="far fa-trash-alt"></i><span>    </span>
-<i class="far fa-edit"><a href={`/artists/${artist._id}/edit`}></a></i>
+
+
                                  </h1>
-                                    
-                                    <br></br>
-                                    
                                     {/* <br></br>
                                     {artist.requireFaq ? `Image: Required` : `Image: Not required`}
                                     <br></br>
-
                                     <form action={`/artists/${artist._id}?_method=DELETE`} method="POST">
                                         <input type="submit" value="delete"/>
                                     </form>
-
                                     <br></br>
                                     <a id="edit"href={`/artists/${artist._id}/edit`}>Edit</a> */}
-
                                 </li>
                             )
                         })
