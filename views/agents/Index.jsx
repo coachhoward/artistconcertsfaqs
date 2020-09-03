@@ -21,29 +21,20 @@ class Index extends React.Component {
                                 <li id="index-li">
                                     <h1 id="agents-h1"><br></br>
                                     <span>    </span><i class="far fa-comment"></i>
-<span   span>    </span><a className="faq-title" href={`/agents/${agent._id}`}>{agent.title}</a><span>    </span>
+                                    <span   span>    </span><a className="faq-title" href={`/agents/${agent._id}`}>{agent.title}</a><span>    </span>
 
-{/* <i className="far fa-trash-alt"></i><span>    </span> */}
+                                   
 
                                     <span>
                                     <a style={{fontSsize: '3em', color: 'white', textDecoration: 'none'}}className="far fa-edit" href={`/agents/${agent._id}/edit`}></a>
                                     </span>
+
                                     <form action={`/agents/${agent._id}?_method=DELETE`} method="POST">
                                         <input id="delete-btn" type="submit" value="DELETE"/>
+                                     {/* <i className="far fa-trash-alt"></i> FONT AWESOME TRASH ICON*/}
                                     </form>
 
                                     </h1>
-
-                                    {/* <br></br>
-
-                                    {agent.requireFaq ? `Image: Required` : `Image: Not required`}
-                                    <br></br>
-                                    <form action={`/agents/${agent._id}?_method=DELETE`} method="POST">
-                                        <input type="submit" value="delete" />
-                                    </form>
-                                    <br></br>
-                                    
-                                    <a id="edit"href={`/agents/${agent._id}/edit`}>Edit</a> */}
                                 </li>
                             )
                         })
